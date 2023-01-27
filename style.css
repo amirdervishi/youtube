@@ -459,14 +459,9 @@ button[type="reset"] {
   margin-top: 5px;
 }
 
-.channel-name-1 {
-  font-size: 16px;
-  color: #242424;
-  cursor: pointer;
-  margin-left: 50px;
-  margin-top: -38px;
-  width: fit-content;
-  height: 22px;
+textarea {
+  resize: none;
+  cursor: auto;
 }
 
 .comment {
@@ -484,6 +479,18 @@ button[type="reset"] {
   margin-top: 5px;
 }
 
+.channel-name-1 {
+  font-size: 16px;
+  color: #242424;
+  cursor: pointer;
+  margin-left: 50px;
+  margin-top: -38px;
+  width: fit-content;
+  height: 22px;
+}
+
+/* other */
+
 .title-1 {
   font-size: 20px;
   width: 705px;
@@ -492,11 +499,6 @@ button[type="reset"] {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
-}
-
-textarea {
-  resize: none;
-  cursor: auto;
 }
 
 .filter-options-container.hidden {
