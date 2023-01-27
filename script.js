@@ -460,7 +460,7 @@ const filterVideos = (category) => {
       const videoEl = `
           <div class="video">
           <div class="thumbnail">
-            <img src="${video.thumbnail}" class="video-thumbnail"  onclick="myFunction()" width=304.1 height=171.05>
+            <img src="${video.thumbnail}" class="video-thumbnail"  onclick="myFunction()" >
             <div class="content">
               <img src="${video.channelIcon}" class="channel-icon">
               <div class="info">
