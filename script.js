@@ -102,10 +102,11 @@ const videos = [
   },
   {
     thumbnail: `img/thumbnail16.jpg`,
-    title: "We Got a Real Job!",
+    title: "Trying Lil Yachty's Pizza With Lil Yachty!",
     channel: "Baylen Levine",
     channelIcon: `img/profile-pic16.jpg`,
-    description: "HOUSEKEEPING!!!",
+    description:
+      "In this video we do a food review of Lil Yachty's pizza with Lil Boat himself. Enjoy!",
     category: ["entertainment", "all"],
   },
 
@@ -526,7 +527,7 @@ videos.forEach((video) => {
   videoElement.classList.add("video");
   const thumbnailButton = document.createElement("button");
   thumbnailButton.classList.add("thumbnail");
-  thumbnailButton.innerHTML = `<img src="${video.thumbnail}" class="thumbnail" alt="" width="854" height="480" />`;
+  thumbnailButton.innerHTML = `<img src="${video.thumbnail}" class="thumbnail" alt="" width="705" height="397" />`;
 
   const filterOptionsContainer = document.querySelector(
     ".filter-options-container"
@@ -534,7 +535,7 @@ videos.forEach((video) => {
 
   thumbnailButton.addEventListener("click", (event) => {
     videoContainer.style.display = "grid";
-    videoContainer.style.gridTemplateColumns = "70% 30%";
+    videoContainer.style.gridTemplateColumns = "65% 35%";
     window.scroll({
       top: 0,
       left: 0,
@@ -547,7 +548,7 @@ videos.forEach((video) => {
     selectedVideo.style.gridColumn = "1 / 2";
     selectedVideo.innerHTML = `
       <div class="content-button">
-        <img src="${video.thumbnail}" class="thumbnail-button" alt="" width="854" height="480" />
+        <img src="${video.thumbnail}" class="thumbnail-button" alt="" width="705" height="397" />
         <h4 class="title-1">${video.title}</h4>
         <i class="channel-icon-1">  <img src="${video.channelIcon}" class="channel-icon-1" alt="" /></i>
         <p class="channel-name-1">${video.channel}</p>
@@ -590,7 +591,7 @@ videos.forEach((video) => {
           <div class="content-button">
             <img src="${
               videos[i - 1].thumbnail
-            }" class="thumbnail-button" alt="" width="854" height="480" />
+            }" class="thumbnail-button" alt="" width="705" height="397" />
             <h4 class="title-1">${videos[i - 1].title}</h4>
             <i class="channel-icon-1">  <img src="${
               videos[i - 1].channelIcon
