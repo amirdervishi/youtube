@@ -557,3 +557,12 @@ textarea {
   margin-left: 175px;
   margin-top: -100px;
 }
+
+.video-thumbnail{
+ width: 100%;
+  height: fit-content;
+  object-fit: cover;
+  cursor: pointer;
+  border-color: transparent;
+  background-color: transparent;
+}
