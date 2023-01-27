@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <button class="logo">
+        <img src="img/logo.PNG" class="logo" alt="" />
+      </button>
+
+      <div class="search-box">
+        <input type="text" class="search-bar" placeholder="search" />
+        <button class="search-btn"><img src="img/search.PNG" alt="" /></button>
+      </div>
+      <div class="user-options">
+        <img src="img/video.PNG" class="icon" alt="" />
+        <img src="img/bell.PNG" class="icon" alt="" />
+        <div class="user-options">
+          <!-- profile pic -->
+          <div class="user-dp">
+            <img src="img/profile-pic.gif" alt="" />
+          </div>
+          <!-- dropdown menu -->
+          <div class="dropdown">
+            <a href="#">My Account</a>
+            <a href="#">YouTube Studio</a>
+            <a href="#">Stwich Account</a>
+            <a href="#">Settings</a>
+            <a href="#">Language</a>
+            <a href="#">Aperence</a>
+            <a href="#">Help</a>
+            <a href="#">Send Feedback</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- sidebar -->
+    <div id="mySidebar" class="side-bar">
+      <button class="links active" id="home">
+        <img src="img/home.PNG" alt="" />home
+      </button>
+      <a href="#" class="links"><img src="img/explore.PNG" alt="" />explore</a>
+      <a href="#" class="links"
+        ><img src="img/subscription.PNG" alt="" />subscription</a
+      >
+      <hr class="seperator" />
+      <a href="#" class="links"><img src="img/library.PNG" alt="" />library</a>
+      <a href="#" class="links"><img src="img/history.PNG" alt="" />history</a>
+      <a href="#" class="links"
+        ><img src="img/your-video.PNG" alt="" />your video</a
+      >
+      <a href="#" class="links"
+        ><img src="img/watch-later.PNG" alt="" />watch leater</a
+      >
+      <a href="#" class="links"
+        ><img src="img/liked video.PNG" alt="" />like video</a
+      >
+      <a href="#" class="links"
+        ><img src="img/show more.PNG" alt="" />show more</a
+      >
+    </div>
+
+    <!-- filters -->
+    <div class="filters filter-options-container">
+      <button class="filter-options active" data-category="all">all</button>
+      <button class="filter-options" data-category="trending">trending</button>
+      <button class="filter-options" data-category="music">music</button>
+      <button class="filter-options" data-category="podcasts">podcasts</button>
+      <button class="filter-options" data-category="entertainment">
+        entertainment
+      </button>
+      <button class="filter-options" data-category="web">
+        web development
+      </button>
+      <button class="filter-options" data-category="nouman">
+        Nouman Ali Khan
+      </button>
+      <button class="filter-options" data-category="nba">NBA</button>
+      <button class="filter-options" data-category="apple">apple</button>
+      <button class="filter-options" data-category="cars">cars</button>
+      <button class="filter-options" data-category="motorcycle">
+        motorcycle
+      </button>
+      <button class="filter-options" data-category="other">other</button>
+    </div>
+
+    <!-- videos -->
+    <div class="video-container"></div>
+
+    <div class="up">
+      <a href="#" class="text"><img src="img/up.png" alt="" />Go to top</a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
